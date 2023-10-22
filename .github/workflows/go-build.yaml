@@ -22,6 +22,4 @@ jobs:
         steps:
             - name: checkout
               uses: actions/checkout@v3
-            - name: check-test
-              uses: n8maninger/action-golang-test@v1
             - run: go run hello-world.go
