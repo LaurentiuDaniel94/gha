@@ -20,6 +20,4 @@ jobs:
         needs: build
         runs-on: ubuntu-latest
         steps:
-            - name: checkout
-              uses: actions/checkout@v3
             - run: go run hello-world.go
